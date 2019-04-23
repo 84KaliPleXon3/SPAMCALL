@@ -17,7 +17,7 @@ INSTAGRAM => rizkiswee
 CONTOH PENGGUNAAN ==>081234567654
 ========================================\n";
 echo "MASUKKAN NOMER YANG AKAN DI SPAM[!]\nNOMER => ";
-$nomer trim(fgets(STDIN));
-$execute send($nomer)
+$nomer = trim(fgets(STDIN));
+$execute = send($nomer)
 print $execute;
 ?>
